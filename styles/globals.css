@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Hind-Regular;
+  src: url("../public/fonts/Hind-Regular.ttf");
+}
+
+@font-face {
+  font-family: Hind-Medium;
+  src: url("../public/fonts/Hind-Medium.ttf");
+}
+
+@font-face {
+  font-family: Hind-Bold;
+  src: url("../public/fonts/Hind-Bold.ttf");
+}
+
+html,
+body {
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  font-size: var(--text-regular);
+  font-family: Hind-Regular;
+  transition: background 0.3s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

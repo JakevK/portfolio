@@ -1,0 +1,18 @@
+.paragraph {
+  margin-top: 1rem;
+  font-size: var(--text-regular);
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.title {
+  font-family: Hind-Bold;
+  font-size: var(--text-section-title);
+}
+
+.paragraph a {
+  color: var(--color-link-blue);
+}
+.paragraph a:hover {
+  text-decoration: underline;
+}
