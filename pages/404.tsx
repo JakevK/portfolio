@@ -1,5 +1,5 @@
-import { Title } from "@components/common/text/title";
-import { Layout } from "@components/common/layout/layout";
+import { Title } from "../components/common/text/title";
+import { Layout } from "../components/common/layout/layout";
 
 export default function ProjectsPage() {
   return (

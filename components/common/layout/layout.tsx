@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
 import Head from "next/head";
-import { Header } from "@/components/common/layout/header/header";
-import { Navigation } from "@/components/common/layout/navigation/navigation";
+import { Header } from "./header/header";
+import { Navigation } from "./navigation/navigation";
 import styles from "./layout.module.css";
 
 interface Props {
