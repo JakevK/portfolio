@@ -6,16 +6,23 @@ import styles from "./layout.module.css";
 
 interface Props {
   children: ReactElement;
+  pageTitle?: string;
 }
 
 const siteTitle = "Jake van Keulen";
 
-export const Layout: FC<Props> = ({ children }): ReactElement => {
+export const Layout: FC<Props> = ({
+  children,
+  pageTitle = "",
+}): ReactElement => {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/images/profile.png" />
-        <title>{siteTitle}</title>
+        <title>{(pageTitle != "" ? pageTitle + " | " : "") + siteTitle}</title>
+        <meta name="title" content="Jake van Keulen" />
+        <meta property="og:title" content="Jake van Keulen" />
+        <meta property="og:image" content="/images/profile.png" />
       </Head>
       <Header />
       <Navigation />

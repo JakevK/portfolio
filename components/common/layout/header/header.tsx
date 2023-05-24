@@ -7,7 +7,7 @@ const titleText: string = "Jake van Keulen";
 
 export const Header: FC = (): ReactElement => {
   return (
-    <Link href="/" className={styles.container}>
+    <Link href="/" className={styles.container} passHref>
       <Image
         src="/images/profile.png"
         width={100}

@@ -3,7 +3,7 @@ import { Layout } from "../components/common/layout/layout";
 
 export default function ContactPage() {
   return (
-    <Layout>
+    <Layout pageTitle="Contact">
       <Paragraph>Coming soon...</Paragraph>
     </Layout>
   );
