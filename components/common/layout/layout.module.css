@@ -3,6 +3,7 @@
   width: 60vw;
   margin: auto;
   padding-top: 6rem;
+  margin-bottom: 8rem;
 }
 
 @media screen and (max-width: 480px) {

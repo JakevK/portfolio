@@ -1,10 +1,10 @@
 import { Layout } from "../components/common/layout/layout";
-import { Paragraph } from "../components/common/text/paragraph";
+import Projects from "../components/projects/projects";
 
 export default function ProjectsPage() {
   return (
     <Layout pageTitle="Projects">
-      <Paragraph>Coming soon...</Paragraph>
+      <Projects />
     </Layout>
   );
 }

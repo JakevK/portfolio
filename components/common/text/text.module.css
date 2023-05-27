@@ -8,6 +8,7 @@
 .title {
   font-family: Hind-Bold;
   font-size: var(--text-section-title);
+  margin-top: 2rem;
 }
 
 .paragraph a {

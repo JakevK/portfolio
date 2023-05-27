@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "level": 95
+    },
+    {
+      "name": "C++",
+      "level": 80
+    },
+    {
+      "name": "JavaScript",
+      "level": 80
+    },
+    {
+      "name": "Java",
+      "level": 70
+    }
+  ]
+}

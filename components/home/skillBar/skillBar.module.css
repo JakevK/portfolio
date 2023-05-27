@@ -1,0 +1,25 @@
+.container {
+  max-width: 500px;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2em;
+  font-size: 1em;
+}
+
+.bar {
+  position: relative;
+  border: 1px solid #66a5df;
+  border-radius: 20px;
+}
+
+.bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #66a5df;
+}

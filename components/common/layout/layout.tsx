@@ -20,8 +20,8 @@ export const Layout: FC<Props> = ({
       <Head>
         <link rel="icon" href="/images/profile.png" />
         <title>{(pageTitle != "" ? pageTitle + " | " : "") + siteTitle}</title>
-        <meta name="title" content="Jake van Keulen" />
-        <meta property="og:title" content="Jake van Keulen" />
+        <meta name="title" content={siteTitle} />
+        <meta property="og:title" content={siteTitle} />
         <meta property="og:image" content="/images/profile.png" />
       </Head>
       <Header />

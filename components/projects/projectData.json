@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "name": "Basketball Management Game",
+      "description": [
+        "A Java Swing desktop application developed for my 2nd year Software Engineering group project. Built with an emphasis on clean code, documentation and testing."
+      ],
+      "tags": ["Java", "Swing", "Collaboration", "Unit Testing"],
+      "github": "https://github.com/FindlayRoyds/Seng201Project",
+      "image": "/images/projects/basketball.png"
+    },
+    {
+      "name": "MapMixer",
+      "description": [
+        "A randomized orienteering map generator aimed at helping orienteers improve their route choice skills. Developed in 2021 for my high school's digital technologies class."
+      ],
+      "tags": ["JavaScript", "HTML Canvas", "Perlin Noise"],
+      "github": "https://github.com/JakevK/MapMixer",
+      "image": "/images/projects/map.png",
+      "website": "https://map-mixer.web.app"
+    }
+  ]
+}

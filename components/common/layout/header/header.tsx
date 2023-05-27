@@ -14,6 +14,7 @@ export const Header: FC = (): ReactElement => {
         height={100}
         alt={titleText}
         className={styles.profilePicture}
+        priority
       />
       <div className={styles.title}>{titleText}</div>
     </Link>

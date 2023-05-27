@@ -5,12 +5,12 @@
       "name": "Home"
     },
     {
-      "url": "/projects",
-      "name": "Projects"
+      "url": "/about",
+      "name": "About"
     },
     {
-      "url": "/contact",
-      "name": "Contact"
+      "url": "/projects",
+      "name": "Projects"
     },
     {
       "url": "/resume.pdf",
