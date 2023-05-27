@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7em 0 1.5em 0;
+  margin-top: 2em;
+  position: sticky;
+  top: 100vh;
+  font-size: 0.9em;
+  gap: 1em;
+}
+
+.container a {
+  color: var(--color-link-blue);
+}
+.container a:hover {
+  text-decoration: underline;
+}

@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Header } from "./header/header";
 import { Navigation } from "./navigation/navigation";
 import styles from "./layout.module.css";
+import { Footer } from "./footer/footer";
 
 interface Props {
   children: ReactElement;
@@ -27,6 +28,7 @@ export const Layout: FC<Props> = ({
       <Header />
       <Navigation />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

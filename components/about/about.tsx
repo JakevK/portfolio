@@ -1,6 +1,7 @@
 import { Paragraph } from "../common/text/paragraph";
 import { Title } from "../common/text/title";
 import Link from "next/link";
+import { ContactLinks } from "../common/contact/contactLinks";
 
 export default function About() {
   return (
@@ -32,8 +33,9 @@ export default function About() {
       </Paragraph>
       <Paragraph>
         Thanks for visiting my website! Please feel free to reach out if
-        you&apos;d like to connect or learn more.
+        you&apos;d like to connect or learn more:
       </Paragraph>
+      <ContactLinks />
     </>
   );
 }

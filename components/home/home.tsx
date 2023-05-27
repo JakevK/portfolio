@@ -6,9 +6,7 @@ import Link from "next/link";
 import styles from "./home.module.css";
 
 import skillData from "./skillData.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { ContactLinks } from "../common/contact/contactLinks";
 
 export default function Home() {
   return (
@@ -35,18 +33,7 @@ export default function Home() {
       <Paragraph>
         Feel free to reach out through any of the following:
       </Paragraph>
-      <Paragraph>
-        <div className={styles.contactLinks}>
-          <a href="mailto:jakevankeulen@gmail.com" target="blank">
-            <FontAwesomeIcon icon={faEnvelope} />
-            Email
-          </a>
-          <a href="https://github.com/JakevK" target="blank">
-            <FontAwesomeIcon icon={faGithub} />
-            GitHub
-          </a>
-        </div>
-      </Paragraph>
+      <ContactLinks />
     </>
   );
 }
