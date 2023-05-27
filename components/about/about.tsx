@@ -11,9 +11,8 @@ export default function About() {
         Hi, I&apos;m Jake. I&apos;m a Software Engineering student at the
         University of Canterbury. I&apos;m in my second year here, but I&apos;ve
         been programming since before I started High School! Over the years,
-        I&apos;ve worked on a range of <Link href="/projects">projects</Link>{" "}
-        and developed proficiency in several languages, including C++, Python,
-        JavaScript and Java.
+        I&apos;ve developed proficiency in several languages, including C++,
+        Python, JavaScript and Java.
       </Paragraph>
       <Paragraph>
         Aside from using code to build things, I enjoy practicing Competitive

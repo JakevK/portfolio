@@ -13,9 +13,9 @@ export default function Home() {
     <>
       <Title>Hi, I&apos;m Jake</Title>
       <Paragraph>
-        Welcome to my website! I&apos;m a Software Engineering student with a
-        passion for problem solving and writing code. In my spare time I love to
-        build personal <Link href="/projects">projects</Link> and participate in
+        Welcome to my website! I&apos;m a Software Engineering student at the
+        University of Canterbury with a passion for algorithmic problem solving.
+        In my spare time I love building projects and participating in
         competitive programming.
       </Paragraph>
       <Paragraph>
