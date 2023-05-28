@@ -7,16 +7,16 @@
       ],
       "tags": ["Java", "Swing", "Collaboration", "Unit Testing"],
       "github": "https://github.com/FindlayRoyds/Seng201Project",
-      "image": "/images/projects/basketball.png"
+      "image": "/images/projects/basketballThumbnail.png"
     },
     {
       "name": "MapMixer",
       "description": [
-        "A randomized orienteering map generator aimed at helping orienteers improve their route choice skills. Developed in 2021 for my high school's digital technologies class."
+        "A randomized orienteering map generator aimed at helping orienteers improve their route choice skills. Uses Perlin Noise for terrain generation to create unique and realistic maps every time."
       ],
       "tags": ["JavaScript", "HTML Canvas", "Perlin Noise"],
       "github": "https://github.com/JakevK/MapMixer",
-      "image": "/images/projects/map.png",
+      "image": "/images/projects/mapThumbnail.png",
       "website": "https://map-mixer.web.app"
     }
   ]
