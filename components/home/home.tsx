@@ -14,13 +14,18 @@ export default function Home() {
       <Title>Hi, I&apos;m Jake</Title>
       <Paragraph>
         Welcome to my website! I&apos;m a Software Engineering student at the
-        University of Canterbury with a passion for algorithmic problem solving.
-        In my spare time I love building projects and participating in
-        competitive programming.
+        University of Canterbury, expecting to graduate at the end of 2025. In
+        my spare time I love building projects and participating in competitive
+        programming.
       </Paragraph>
       <Paragraph>
         <Link href="/about">More about me ➜</Link>
       </Paragraph>
+      <Title>Contact</Title>
+      <Paragraph>
+        Feel free to reach out through any of the following:
+      </Paragraph>
+      <ContactLinks />
       <Title>Languages</Title>
       <Paragraph>
         <div className={styles.skillsList}>
@@ -29,11 +34,6 @@ export default function Home() {
           ))}
         </div>
       </Paragraph>
-      <Title>Contact</Title>
-      <Paragraph>
-        Feel free to reach out through any of the following:
-      </Paragraph>
-      <ContactLinks />
     </>
   );
 }
