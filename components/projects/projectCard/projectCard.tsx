@@ -6,6 +6,7 @@ import { Title } from "../../common/text/title";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { TagContainer } from "../../common/tags/tagContainer";
 
 interface Props {
   name: string;
@@ -52,13 +53,7 @@ export const ProjectCard: FC<Props> = ({
             </a>
           )}
         </div>
-        <div className={styles.tagContainer}>
-          {tags.map((tag, i) => (
-            <span className={styles.tag} key={i}>
-              {tag}
-            </span>
-          ))}
-        </div>
+        <TagContainer tags={tags} />
       </div>
     </div>
   );

@@ -1,20 +1,12 @@
 {
-  "skills": [
-    {
-      "name": "Python",
-      "level": 95
-    },
-    {
-      "name": "C++",
-      "level": 80
-    },
-    {
-      "name": "JavaScript",
-      "level": 70
-    },
-    {
-      "name": "Java",
-      "level": 50
-    }
-  ]
+  "languages": [
+    "Python",
+    "C++",
+    "C",
+    "Java",
+    "JavaScript/TypeScript",
+    "HTML/CSS"
+  ],
+  "frameworks": ["Flask", "Java Swing", "JUnit", "React", "Next.js"],
+  "tools": ["Git", "Linux", "Bash", "Gradle", "MS Access"]
 }
