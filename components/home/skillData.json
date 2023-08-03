@@ -8,5 +8,5 @@
     "HTML/CSS"
   ],
   "frameworks": ["Flask", "Java Swing", "JUnit", "React", "Next.js"],
-  "tools": ["Git", "Linux", "Bash", "Gradle", "MS Access"]
+  "tools": ["Git", "Linux", "Bash", "Gradle", "MS Access", "REST API"]
 }
