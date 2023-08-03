@@ -17,10 +17,7 @@ export const ContactLinks: FC = (): ReactElement => {
           <FontAwesomeIcon icon={faGithub} />
           GitHub
         </a>
-        <a
-          href="https://www.linkedin.com/in/jake-van-keulen-825668278"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/jakevk" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} />
           LinkedIn
         </a>
