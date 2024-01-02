@@ -8,7 +8,7 @@ export default function HomePage() {
       <Head>
         <meta
           name="description"
-          content="Hi, I'm Jake. Welcome to my website! I'm a Software Engineering student at the University of Canterbury, with a passion for algorithmic problem solving. In my spare time I love building projects and participating in competitive programming."
+          content="Hi, I'm Jake. I'm a Software Engineering student at the University of Canterbury, currently interning at Seequent."
           key="desc"
         />
       </Head>

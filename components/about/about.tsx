@@ -1,6 +1,5 @@
 import { Paragraph } from "../common/text/paragraph";
 import { Title } from "../common/text/title";
-import Link from "next/link";
 import { ContactLinks } from "../common/contact/contactLinks";
 
 export default function About() {
@@ -9,30 +8,33 @@ export default function About() {
       <Title>About me</Title>
       <Paragraph>
         Hi, I&apos;m Jake. I&apos;m a Software Engineering student at the
-        University of Canterbury. I&apos;m in my second year here, but I&apos;ve
-        been programming since before I started High School! Over the years,
-        I&apos;ve developed proficiency in several languages, including C++,
-        Python, JavaScript and Java.
+        University of Canterbury, graduating Nov 2025. Over the 2023/24 summer
+        break I&apos;m currently interning as a Software Engineer at{" "}
+        <a href="https://seequent.com" target="_blank">Seequent</a> .
       </Paragraph>
       <Paragraph>
-        Aside from using code to build things, I enjoy practicing Competitive
-        Programming. In 2022, I competed in{" "}
-        <a href="https://icpc.global/" target="_blank">
-          ICPC
-        </a>{" "}
-        for the first time and qualified for the South Pacific Regional Finals.
-        I had to compete alone due to my teammates having COVID-19, so I was
-        quite happy with this result!
+        In my spare time, I enjoy participating in <a href="https://clist.by/coder/jakevk/" target="_blank">
+          competitive programming
+        </a>. In
+        the 2023{" "}
+        <a href="https://nzprogcontest.org.nz/results/2023/" target="_blank">
+          NZ Programming Contest
+        </a>, my team placed 1st in our division (tertiary intermediate) and 3rd
+        overall. I also like doing the LeetCode{" "}
+        <a href="https://leetcode.com/contest" target="_blank">
+          weekly contests
+        </a>, for which I'm ranked in the top 0.5% of all 450,000+ competitors
+        worldwide.
       </Paragraph>
       <Paragraph>
-        When I&apos;m not writing code, I love to get outdoors for tramping,
-        rock climbing, or any other sort of adventure. I especially enjoy
-        bouldering, and I&apos;m an active member of my university&apos;s rock
-        climbing club.
+        When I'm not thinking about code, I love to get outdoors to go hiking,
+        rock climbing, or adventuring of any kind. I'm an active member of the
+        University of Canterbury Rock Climbing Club, for which I'm an executive
+        committee member for 2024.
       </Paragraph>
       <Paragraph>
-        Thanks for visiting my website! Please feel free to reach out if
-        you&apos;d like to connect or learn more:
+        Thanks for taking the time to stop by! Feel free to reach out if you'd
+        like to connect or learn more:
       </Paragraph>
       <ContactLinks />
     </>

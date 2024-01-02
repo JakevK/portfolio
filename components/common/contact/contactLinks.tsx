@@ -9,10 +9,6 @@ export const ContactLinks: FC = (): ReactElement => {
   return (
     <Paragraph>
       <div className={styles.contactLinks}>
-        <a href="mailto:jakevankeulen@gmail.com" target="_blank">
-          <FontAwesomeIcon icon={faEnvelope} />
-          Email
-        </a>
         <a href="https://github.com/JakevK" target="_blank">
           <FontAwesomeIcon icon={faGithub} />
           GitHub
@@ -20,6 +16,10 @@ export const ContactLinks: FC = (): ReactElement => {
         <a href="https://www.linkedin.com/in/jakevk" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} />
           LinkedIn
+        </a>
+        <a href="mailto:jakevankeulen@gmail.com" target="_blank">
+          <FontAwesomeIcon icon={faEnvelope} />
+          Email
         </a>
       </div>
     </Paragraph>

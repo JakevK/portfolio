@@ -4,9 +4,12 @@
     "C++",
     "C",
     "Java",
-    "JavaScript/TypeScript",
-    "HTML/CSS"
+    "SQL"
   ],
-  "frameworks": ["Flask", "Java Swing", "JUnit", "React", "Next.js"],
-  "tools": ["Git", "Linux", "Bash", "Gradle", "MS Access", "REST API"]
+  "tools": ["Git", "Linux", "Bash"],
+  "frontend": [
+    "JavaScript/TypeScript",
+    "HTML/CSS",
+    "React"
+  ]
 }
