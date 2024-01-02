@@ -23,17 +23,17 @@ export default function About() {
         overall. I also like doing the LeetCode{" "}
         <a href="https://leetcode.com/contest" target="_blank">
           weekly contests
-        </a>, for which I'm ranked in the top 0.5% of all 450,000+ competitors
+        </a>, for which I&apos;m ranked in the top 0.5% of all 450,000+ competitors
         worldwide.
       </Paragraph>
       <Paragraph>
-        When I'm not thinking about code, I love to get outdoors to go hiking,
-        rock climbing, or adventuring of any kind. I'm an active member of the
-        University of Canterbury Rock Climbing Club, for which I'm an executive
+        When I&apos;m not thinking about code, I love to get outdoors to go hiking,
+        rock climbing, or adventuring of any kind. I&apos;m an active member of the
+        University of Canterbury Rock Climbing Club, for which I&apos;m an executive
         committee member for 2024.
       </Paragraph>
       <Paragraph>
-        Thanks for taking the time to stop by! Feel free to reach out if you'd
+        Thanks for taking the time to stop by! Feel free to reach out if you&apos;d
         like to connect or learn more:
       </Paragraph>
       <ContactLinks />

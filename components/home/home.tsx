@@ -15,7 +15,7 @@ export default function Home() {
         I&apos;m a Software Engineering student at the University of Canterbury,
         graduating Nov 2025. My hobbies include working on personal{" "}
         <Link href="/projects">projects</Link>,{" "}
-          competitive programming, and rock climbing. I'm currently interning as a Software Engineer
+          competitive programming, and rock climbing. I&apos;m currently interning as a Software Engineer
         at <a href="https://seequent.com" target="_blank">Seequent</a>.{" "}
       </Paragraph>
       <Paragraph>
