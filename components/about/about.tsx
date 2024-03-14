@@ -9,8 +9,8 @@ export default function About() {
       <Paragraph>
         Hi, I&apos;m Jake. I&apos;m a Software Engineering student at the
         University of Canterbury, graduating Nov 2025. Over the 2023/24 summer
-        break I&apos;m currently interning as a Software Engineer at{" "}
-        <a href="https://seequent.com" target="_blank">Seequent</a> .
+        break I interned as a Software Engineer at{" "}
+        <a href="https://seequent.com" target="_blank">Seequent</a>, and I also tutor part-time for the UC computer science department.
       </Paragraph>
       <Paragraph>
         In my spare time, I enjoy participating in <a href="https://clist.by/coder/jakevk/" target="_blank">
@@ -20,16 +20,16 @@ export default function About() {
         <a href="https://nzprogcontest.org.nz/results/2023/" target="_blank">
           NZ Programming Contest
         </a>, my team placed 1st in our division (tertiary intermediate) and 3rd
-        overall. I also like doing the LeetCode{" "}
-        <a href="https://leetcode.com/contest" target="_blank">
-          weekly contests
-        </a>, for which I&apos;m ranked in the top 0.5% of all 450,000+ competitors
+        overall. I also like doing the{" "}
+        <a href="https://leetcode.com/jakevk" target="_blank">
+          LeetCode
+        </a> weekly contests, for which I&apos;m ranked in the top 0.5% of all 500,000+ competitors
         worldwide.
       </Paragraph>
       <Paragraph>
-        When I&apos;m not thinking about code, I love to get outdoors to go hiking,
+        When I&apos;m not thinking about software, I love to get outdoors to go hiking,
         rock climbing, or adventuring of any kind. I&apos;m an active member of the
-        University of Canterbury Rock Climbing Club, for which I&apos;m an executive
+        University of Canterbury Climbing Club, for which I&apos;m an executive
         committee member for 2024.
       </Paragraph>
       <Paragraph>
